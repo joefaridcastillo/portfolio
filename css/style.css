@@ -156,19 +156,22 @@ hr {
 .tm-portfolio-title {
   text-align: center;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 22px;
   color: #303030;
 }
-.portfolio-item-title {
+.portfolio-item-title h3{
   font-weight: bold;
-  margin-top: 10px;
-  padding-top: 10px;
+  margin-top: 43px;
+  padding-top: 44px;
   text-transform: uppercase;
+  font-size: 12px;
+  line-height: 12px;
 }
 .portfolio-thumb {
   overflow: hidden;
   margin: 0;
   position: relative;
+  
 }
 .portfolio-overlay {
   display: -webkit-box;
@@ -179,7 +182,7 @@ hr {
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
-          flex-direction: column;
+          flex-direction: colum;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -201,11 +204,12 @@ hr {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
 }
-.link-project{
+.link-project {
   text-decoration: none;
   color: #000;
   padding-bottom: 10px;
- 
+ line-height: 14px;
+ font-size: 12px;
 }
 .link-project:hover{
   color: #ffff;
@@ -228,7 +232,13 @@ hr {
   text-decoration: none;
   margin-right: 6px;
   margin-bottom: 10px;
+
 }
+.portfolio-overlay p{
+  font-size: 14px;
+  line-height: 15px;
+}
+
 
 /* FILTER CSS */
 .filter-wrapper {
@@ -257,10 +267,11 @@ hr {
   background: #eb5424;
   border-color: transparent;
   color: #ffffff;
+  
 }
 
 /* ISOTOPE BOX CSS */
-.iso-box-section { width: 100%; }
+.iso-box-section { width: 100%;}
 .iso-box-wrapper {
   width: 100%;
   padding: 0;
@@ -270,7 +281,7 @@ hr {
 .iso-box {
   position: relative;
   min-height: 50px;
-  float: left;
+  float:right;
   overflow: hidden;
   margin-bottom: 20px;
 }
@@ -290,6 +301,7 @@ hr {
   width: 100%;
   display: block;
   height: auto;
+  
 }
 /* END PORTFOLIO */
 
@@ -438,7 +450,11 @@ input { height: 50px; }
 /* START MEDIA 980 */
 @media screen and (max-width:980px){
   .portfolio-overlay  { padding-top: 10px; }
-  
+  .title-contact{
+    color:#303030;
+    text-transform: uppercase;
+    font-size: 40px;
+  }
   
 }
 /* END MEDIA 980 */
